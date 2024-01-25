@@ -11,6 +11,17 @@ public class BankAccount {
         this.balance = balance;
         this.minBalance = minBalance;
     }
+    public String getName() {
+        return name;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public double getMinBalance() {
+        return minBalance;
+    }
 
     public String generateAccountNumber(int digits, int sum) throws Exception {
         // Your code for generating account number goes here

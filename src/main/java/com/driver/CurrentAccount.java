@@ -3,6 +3,10 @@ package com.driver;
 public class CurrentAccount extends BankAccount {
     String tradeLicenseId; // consists of Uppercase English characters only
 
+    public String getTradeLicenseId() {
+        return tradeLicenseId;
+    }
+
     public CurrentAccount(String name, double balance, String tradeLicenseId) throws Exception {
         super(name, balance, 5000); // minimum balance is 5000 by default
         this.tradeLicenseId = tradeLicenseId;

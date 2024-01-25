@@ -35,7 +35,7 @@ public class SavingsAccount extends BankAccount {
     }
 
     public double getCompoundInterest(int times, int years) {
-        // Your code for calculating compound interest goes here
+        // Your code for calculating compound interest goes heree
         return balance * Math.pow((1 + rate / times), times * years);
     }
 }
